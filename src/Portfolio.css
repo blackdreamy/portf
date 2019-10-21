@@ -1,0 +1,58 @@
+.within {
+    border-color: #959595;
+}
+.within {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+}
+.portfolio li.active {
+    border-color: #7cb342;
+    color: #fff;
+    background-color: #9ccc65;
+}
+.portfolio li:first-child {
+    margin-left: 0;
+}
+.portfolio li {
+    color: #000;
+    border-color: #dfdfdf;
+    background-color: #fcfcfc;
+}
+.portfolio li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 34px;
+    padding: 0 12px;
+    border-width: 1px;
+    border-style: solid;
+}
+.portfolio ul, .portfolio li {
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.portfolio ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+.hover-animate {
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+

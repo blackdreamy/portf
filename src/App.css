@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+html {
+	background-color:#f5f5f5;
+}
+.wrapper {
+	margin-top:2rem;
+	margin-bottom:2rem;
+	background-color:#f5f5f5;
+	font-family: 'Raleway', sans-serif !important;	
+}
+.padding {
+	padding-top:2rem;
+	padding-bottom:2rem;
+	padding-bottom:none;
+}
+.bg-white {
+	background-color:white;
+}
+.header-padding {
+	padding-top:4rem;
+	padding-bottom:4rem;
+}
+.header-padding-avatar{
+	padding-top:1rem;
+	padding-bottom: 1rem;
+}
+.avatar {
+	width:250px;
+	height:250px;
+	border-radius:50%;
+}
+.my-name {
+	font-weight: bolder;
+	font-size:3em;
+}
+.margin-bottom{
+	margin:0px !important;
+}
+.image-padding {
+	padding:2rem;
+	padding-top:3.7rem;
+}
+.bottom-info {
+	color:grey;
+}
+.footer-block {
+	padding:1.2rem;
+}
+.image-text {
+	padding-top:.7rem;
+	text-decoration: none;
+	color:#212529 !important;
+	font-size:1.2em;
+}
+.header-icon {
+	font-size:2em !important;
+	padding:0 .7rem 0 .7rem;
+	color:#666666;
+}
+.header-icon:hover{
+	color:#303030;
+}
+.footer-icon{
+	font-size: 1.1em !important;
+	padding-right:.5rem;
+}
+.page-logo{
+	float: left;
+	margin-right:1rem;
+}
+.header {
+	padding:2rem;
+}
+.btn-close {
+    width: 36px;
+    height: 36px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background-image: url(close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.full-col-logo{
+	padding-left:0px;
+}
+.rotate-center:hover {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+.middle {
+	padding:3rem 1rem 3rem 1rem;
+}
+.hello {
+	font-weight:bolder;
+	margin-bottom:1rem;
+}
+.block-grey {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-color: #dfdfdf;
+}
+.font-weight-m {
+    font-weight: bold;
+}
+.block-grey table td {
+    line-height: 16px;
+    padding-bottom: 18px;
+}
+.green-marker {
+	color:#9ccc65;
+	padding-right:1rem;
+}
+table{
+	width:100%;
+}
+.cv-button {
+	margin-bottom:2rem;
+}
+.footer-bottom {
+	font-size:.9em;
+}
+.resume-table table td {
+    line-height: 25px;
+    padding-bottom: 18px;
+}
+.resume-h3{
+	padding-bottom:.5rem;
+}
+.padding-bottom {
+	padding-bottom:1rem;
+}
+.padding-top{
+	padding-top:2rem;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 24px;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    overflow: visible;
+    background-color: #f5f5f5;
+    border-color: #dfdfdf;
+
+}
+.progress-bar {
+    background-color: #9ccc65;
+    border-color: #7cb342;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 8px;
+    position: relative;
+    box-shadow: none;
+}
+.progress-bar span {
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    border-color: #d6d6d6;
+}
+.progress-title {
+	padding-bottom:.1rem;
+	font-weight:bold;
+	font-size:1.1em;
+}
+.language-skills .progress {
+    height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.language-skills .progress:hover {
+    background-color: #9ccc65;
+    color: #fff;
+}
+.language-skills .progress:hover, .language-skills .progress:hover .ratyli .rate, .language-skills .progress:hover .ratyli .rate-empty {
+    webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.language-skills .progress:hover .ratyli .rate, .language-skills .progress:hover .ratyli .rate-empty {
+    color: #fff;
+}
+.language-skills .progress-bar-label {
+    margin-left: 20px;
+    line-height: 40px;
+}
+.progress-bar-label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ratyli {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.ratyli .rate {
+	color: #9ccc65;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 3px;
+}
+.ratyli .rate-empty {
+    color: #c6c6c6;
+}
+.ul-title {
+	padding-bottom:1em;
+}
+ul li {
+    list-style-type: none;
+    line-height: 16px;
+    margin-bottom: 18px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size:1em;
+}
+
+.knwldg ul li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    color: #9ccc65;
+}
+
+.circle-block {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.circle-block .icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle-block .icon {
+    color: #9ccc65;
+    border-color: #e9e9e9;
+}
+.circle-block .icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 24px;
+}
+.hover-animate {
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.circle-block .name {
+    font-weight: 600;
+}
+.circle-block:hover .icon {
+    border-color: #7cb342;
+}
+.circle-block:hover .name {
+    color: #9ccc65;
+}
+@media (max-width: 768px) {
+.wrapper {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.padding {
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.my-name {
+	font-weight: bolder;
+	font-size:1em;
+}
+.avatar {
+	width:150px;
+	height:150px;
+	border-radius:50%;
+}
+.header-padding {
+	padding-top:2rem;
+	padding-bottom:1rem;
+}
+.headerText {
+	font-size: 2rem;
+}
+.resume-h3 {
+	font-size:1.5rem;
+}
+.underHeader{
+	font-size: 1.3rem;
+}
+.full-col-logo{
+	padding-left:0px;
+}
+.progress-language {
+	font-size:14px;
+}
+}
+
+@media (max-width: 425px) {
+.wrapper {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.padding {
+    padding-top:0;
+    padding-bottom:0;
+}
+.page-logo{
+	float: left;
+	width:60px;
+	margin-right:5px;
+}
+.headerText {
+	font-size: 1.2rem;
+}
+.underHeader{
+	font-size:.8rem;
+}
+.header{
+	padding:.8rem;
+}
+.block-grey{
+	padding:5px;
+}
+.resume-h3 {
+	font-size:1.2rem;
+}
+table {
+	font-size:14px;
+}
+.middle{
+	padding-left:.2rem;
+}
+.btn-close{
+	width: 28px;
+    height: 28px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background-image: url(close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+@media (max-width: 375px) {
+
+.wrapper {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.padding {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.full-col-logo{
+	padding-left:0px;
+}
+.figure img{
+	width:100px;
+}
+
+table {
+	font-size:12px;
+}
+.footer-bottom{
+	font-size:12px;
+}
+.progress-language {
+	font-size:10px !important;
+}
+}
+
+}
+@media (max-width: 320px) {
+    .wrapper {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.padding {
+    padding-top:0;
+    padding-bottom:0;
+}
+.image-padding{
+	padding-left:1.3rem;
+}
+.figure img{
+	width:60px;
+}
+.page-logo{
+	float: left;
+	width:60px;
+	margin-right:4px;
+	margin-left:10px;
+}
+.headerText {
+	font-size: .9rem;
+	margin-top:10px;
+}
+.logo-col{
+	padding:5px;
+}
+.underHeader{
+	font-size:.7rem;
+}
+.header{
+	padding-right:5px !important;
+}
+.full-col-logo{
+	padding-left:2px;
+}
+.btn-close{
+	width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background-image: url(close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+}
+table {
+	font-size:10px;
+}
+}
